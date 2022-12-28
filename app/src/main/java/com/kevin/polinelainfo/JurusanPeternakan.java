@@ -19,18 +19,17 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class JurusanPeternakan extends AppCompatActivity {
-    private SQLiteDatabase db;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jurusan_peternakan);
 
         DatabasePolinelaInfo mDBHelper = new DatabasePolinelaInfo(this);
+        SQLiteDatabase db = null;
         if (mDBHelper.openDatabase())
             db = mDBHelper.getReadableDatabase();
 
         ListView lv_daftar_prodi = findViewById(R.id.list);
-
         ArrayList<HashMap<String, String>> list = new ArrayList<>();
         String query_prodi = "SELECT kd_prodi,nm_prodi FROM peternakan ORDER BY kd_prodi";
         Cursor cursor_prodi = db.rawQuery(query_prodi, null);
@@ -53,12 +52,29 @@ public class JurusanPeternakan extends AppCompatActivity {
 
         AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View container, int position, long id) {
-                LinearLayout linearLayout = (LinearLayout) container;
-                TextView tv_kd_prodi = (TextView) linearLayout.getChildAt(0);
-                Intent intent = new Intent(JurusanPeternakan.this, MainActivity.class);
-                intent.putExtra("KODE_PRODI", tv_kd_prodi.getText().toString());
-                startActivity(intent);
+            public void onItemClick(AdapterView<?> parent, View container,
+                                    int position, long id) {
+                if (position == 0) {
+                    Intent myIntent = new Intent(container.getContext(), ProduksiTernak.class);
+                    startActivityForResult(myIntent, 0);
+                }
+
+                if (position == 1) {
+                    Intent myIntent = new Intent(container.getContext(), BudidayaPerikanan.class);
+                    startActivityForResult(myIntent, 0);
+                }
+                if (position == 2) {
+                    Intent myIntent = new Intent(container.getContext(), PerikananTangkap.class);
+                    startActivityForResult(myIntent, 0);
+                }
+                if (position == 3) {
+                    Intent myIntent = new Intent(container.getContext(), TeknologiProduksiTernak.class);
+                    startActivityForResult(myIntent, 0);
+                }
+                if (position == 4) {
+                    Intent myIntent = new Intent(container.getContext(), TeknologiPembenihanIkan.class);
+                    startActivityForResult(myIntent, 0);
+                }
             }
         };
 

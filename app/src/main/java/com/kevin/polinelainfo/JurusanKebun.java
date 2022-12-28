@@ -19,18 +19,17 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class JurusanKebun extends AppCompatActivity {
-    private SQLiteDatabase db;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jurusan_kebun);
 
         DatabasePolinelaInfo mDBHelper = new DatabasePolinelaInfo(this);
+        SQLiteDatabase db = null;
         if (mDBHelper.openDatabase())
             db = mDBHelper.getReadableDatabase();
 
         ListView lv_daftar_prodi = findViewById(R.id.list);
-
         ArrayList<HashMap<String, String>> list = new ArrayList<>();
         String query_prodi = "SELECT kd_prodi,nm_prodi FROM perkebunan ORDER BY kd_prodi";
         Cursor cursor_prodi = db.rawQuery(query_prodi, null);
@@ -53,12 +52,21 @@ public class JurusanKebun extends AppCompatActivity {
 
         AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View container, int position, long id) {
-                LinearLayout linearLayout = (LinearLayout) container;
-                TextView tv_kd_prodi = (TextView) linearLayout.getChildAt(0);
-                Intent intent = new Intent(JurusanKebun.this, MainActivity.class);
-                intent.putExtra("KODE_PRODI", tv_kd_prodi.getText().toString());
-                startActivity(intent);
+            public void onItemClick(AdapterView<?> parent, View container,
+                                    int position, long id) {
+                if (position == 0) {
+                    Intent myIntent = new Intent(container.getContext(), ProduksiTanamanPerkebunan.class);
+                    startActivityForResult(myIntent, 0);
+                }
+
+                if (position == 1) {
+                    Intent myIntent = new Intent(container.getContext(), PMIP.class);
+                    startActivityForResult(myIntent, 0);
+                }
+                if (position == 2) {
+                    Intent myIntent = new Intent(container.getContext(), KebunKopi.class);
+                    startActivityForResult(myIntent, 0);
+                }
             }
         };
 

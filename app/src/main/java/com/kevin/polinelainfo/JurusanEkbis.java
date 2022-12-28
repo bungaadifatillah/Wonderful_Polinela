@@ -63,6 +63,34 @@ public class JurusanEkbis extends AppCompatActivity {
                     Intent myIntent = new Intent(container.getContext(), ManajemenInformatika.class);
                     startActivityForResult(myIntent, 0);
                 }
+                if (position == 2) {
+                    Intent myIntent = new Intent(container.getContext(), PerjalananWisata.class);
+                    startActivityForResult(myIntent, 0);
+                }
+                if (position == 3) {
+                    Intent myIntent = new Intent(container.getContext(), AgribisnisPangan.class);
+                    startActivityForResult(myIntent, 0);
+                }
+                if (position == 4) {
+                    Intent myIntent = new Intent(container.getContext(), PengelolaanAgribisnis.class);
+                    startActivityForResult(myIntent, 0);
+                }
+                if (position == 5) {
+                    Intent myIntent = new Intent(container.getContext(), AkuntansiPerpajakan.class);
+                    startActivityForResult(myIntent, 0);
+                }
+                if (position == 6) {
+                    Intent myIntent = new Intent(container.getContext(), AkuntansiBisnisDigital.class);
+                    startActivityForResult(myIntent, 0);
+                }
+                if (position == 7) {
+                    Intent myIntent = new Intent(container.getContext(), PengelolaanPerhotelan.class);
+                    startActivityForResult(myIntent, 0);
+                }
+                if (position == 8) {
+                    Intent myIntent = new Intent(container.getContext(), TeknologiRekayasaInternet.class);
+                    startActivityForResult(myIntent, 0);
+                }
             }
         };
 
