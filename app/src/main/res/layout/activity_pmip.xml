@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFDAEF"
+    android:orientation="vertical"
+    tools:context=".PMIP"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        android:src="@drawable/foto_pmip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:background="@color/blue"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:text="D4 Produksi dan Manajemen Industri Perkebunan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="D4 Produksi dan Manajemen Industri Perkebunan adalah program studi yang mempelajari tentang teknik-teknik dan strategi-strategi dalam mengelola perkebunan agar dapat menghasilkan hasil panen yang berkualitas tinggi serta mengelola bisnis perkebunan secara efektif dan efisien. Selain itu, mahasiswa juga akan mempelajari tentang cara mengelola lahan pertanian agar tetap sehat dan produktif serta cara memanfaatkan bahan organik sebagai pupuk alami. Mahasiswa juga akan mempelajari tentang aspek-aspek manajemen bisnis seperti perencanaan, pengorganisasian, pengarahan, dan pengendalian dalam mengelola perkebunan. "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+
+    </ScrollView>
+
+</LinearLayout>

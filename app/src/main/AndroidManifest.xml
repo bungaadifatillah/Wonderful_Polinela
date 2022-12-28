@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kevin.polinelainfo">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PolinelaInfo"
+        tools:targetApi="31">
+        <activity
+            android:name=".TeknologiRekayasaInternet"
+            android:exported="false" />
+        <activity
+            android:name=".AkuntansiBisnisDigital"
+            android:exported="false" />
+        <activity
+            android:name=".AkuntansiPerpajakan"
+            android:exported="false" />
+        <activity
+            android:name=".PengelolaanAgribisnis"
+            android:exported="false" />
+        <activity
+            android:name=".AgribisnisPangan"
+            android:exported="false" />
+        <activity
+            android:name=".PerjalananWisata"
+            android:exported="false" />
+        <activity
+            android:name=".ManajemenInformatika"
+            android:exported="false" />
+        <activity
+            android:name=".AdministrasiPerpajakan"
+            android:exported="false" />
+        <activity
+            android:name=".JurusanEkbis"
+            android:exported="false" />
+        <activity
+            android:name=".TeknologiPembenihanIkan"
+            android:exported="false" />
+        <activity
+            android:name=".TeknologiProduksiTernak"
+            android:exported="false" />
+        <activity
+            android:name=".PerikananTangkap"
+            android:exported="false" />
+        <activity
+            android:name=".BudidayaPerikanan"
+            android:exported="false" />
+        <activity
+            android:name=".ProduksiTernak"
+            android:exported="false" />
+        <activity
+            android:name=".JurusanPeternakan"
+            android:exported="false" />
+        <activity
+            android:name=".PPA"
+            android:exported="false" />
+        <activity
+            android:name=".TRKJJ"
+            android:exported="false" />
+        <activity
+            android:name=".TRKI"
+            android:exported="false" />
+        <activity
+            android:name=".TeknologiPangan"
+            android:exported="false" />
+        <activity
+            android:name=".MekanisasiPertanian"
+            android:exported="false" />
+        <activity
+            android:name=".TSL"
+            android:exported="false" />
+        <activity
+            android:name=".Patiseri"
+            android:exported="false" />
+        <activity
+            android:name=".JurusanTektan"
+            android:exported="false" />
+        <activity
+            android:name=".KebunKopi"
+            android:exported="false" />
+        <activity
+            android:name=".PMIP"
+            android:exported="false" />
+        <activity
+            android:name=".ProduksiTanamanPerkebunan"
+            android:exported="false" />
+        <activity
+            android:name=".JurusanKebun"
+            android:exported="false" />
+        <activity
+            android:name=".TeknologiProduksiTanamanHortikultura"
+            android:exported="false" />
+        <activity
+            android:name=".TeknologiPerbenihan"
+            android:exported="false" />
+        <activity
+            android:name=".Hortikultura"
+            android:exported="false" />
+        <activity
+            android:name=".ProduksiTanamanPangan"
+            android:exported="false" />
+        <activity
+            android:name=".TeknikProduksiTanamanOrganik"
+            android:exported="false" />
+        <activity
+            android:name=".JurusanPangan"
+            android:exported="false" />
+        <activity
+            android:name=".Beranda"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

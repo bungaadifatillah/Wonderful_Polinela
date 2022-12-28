@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFDAEF"
+    android:orientation="vertical"
+    tools:context=".MekanisasiPertanian"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        android:src="@drawable/mekanisasi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:background="@color/blue"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:text="D3 Mekanisasi Pertanian"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="D3 Mekanisasi Pertanian adalah program studi yang mempelajari tentang teknik-teknik dan strategi-strategi dalam mengelola peralatan dan mesin-mesin pertanian agar dapat digunakan secara efektif dan efisien dalam mengelola pertanian. Mahasiswa akan mempelajari tentang cara mengoperasikan, merawat, dan memelihara peralatan dan mesin-mesin pertanian seperti traktor, mesin pertanian, dan alat panen. Selain itu, mahasiswa juga akan mempelajari tentang cara mengembangkan teknologi pertanian yang ramah lingkungan dan meningkatkan produktivitas pertanian. Program studi ini sangat berguna bagi mereka yang ingin terjun dalam dunia pertanian atau ingin bekerja di sektor pertanian."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+
+    </ScrollView>
+
+</LinearLayout>

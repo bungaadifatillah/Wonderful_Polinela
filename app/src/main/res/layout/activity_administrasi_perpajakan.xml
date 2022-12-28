@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFDAEF"
+    android:orientation="vertical"
+    tools:context=".AdministrasiPerpajakan"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        android:src="@drawable/admin_pajak" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:background="@color/blue"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:text="D2 Administrasi Perpajakan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+       android:text="D2 Administrasi Perpajakan adalah program studi yang mempelajari tentang teknik-teknik dan strategi-strategi dalam mengelola administrasi perpajakan agar dapat dilakukan secara efektif dan efisien. Mahasiswa akan mempelajari tentang peraturan-peraturan perpajakan dan cara menghitung pajak yang harus dibayar oleh wajib pajak. Selain itu, mahasiswa juga akan mempelajari tentang cara mengelola dokumen-dokumen perpajakan dan cara menangani masalah-masalah yang terkait dengan perpajakan. Program studi ini sangat berguna bagi mereka yang ingin terjun dalam dunia administrasi perpajakan atau ingin bekerja di sektor keuangan."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+
+    </ScrollView>
+
+</LinearLayout>

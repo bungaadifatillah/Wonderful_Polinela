@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFDAEF"
+    android:orientation="vertical"
+    tools:context=".PPA"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        android:src="@drawable/ppa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:background="@color/blue"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:text="D4 Pengembangan Produk Agroindustri"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="D4 Pengembangan Produk Agroindustri adalah program studi yang mempelajari tentang teknik-teknik dan strategi-strategi dalam mengembangkan produk-produk agroindustri yang berkualitas tinggi dan inovatif. Mahasiswa akan mempelajari tentang cara mengolah bahan-bahan pertanian menjadi produk-produk agroindustri seperti makanan olahan, minuman, dan obat-obatan. Selain itu, mahasiswa juga akan mempelajari tentang cara menjaga kualitas dan kebersihan produk-produk agroindustri serta cara mengembangkan teknologi pengolahan pangan yang ramah lingkungan. Mahasiswa juga akan mempelajari tentang aspek-aspek manajemen bisnis seperti perencanaan, pengorganisasian, pengarahan, dan pengendalian dalam mengelola agroindustri."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+
+    </ScrollView>
+
+</LinearLayout>

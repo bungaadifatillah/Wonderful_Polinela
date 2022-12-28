@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Project Bunga dan Kevin</string>
+    <string name="title_activity_patiseri">Patiseri</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="visi">
+        Menjadi politeknik yang bermutu, inovatif, dan unggul dalam ilmu pengetahuan dan teknologi terapan.
+    </string>
+    <string name="misi">
+        1. Menyelenggarakan pendidikan tinggi vokasi yang berorientasi pada akhlak mulia, terampil, disiplin, mandiri, dan kompetitif;
+        2. Melaksanakan kajian keilmuan dan penelitian terapan untuk menopang pendidikan dan pengajaran;
+        3. Melaksanakan pengabdian kepada masyarakat melalui transfer ilmu pengetahuan dan teknologi terapan;
+        4. Menguatkan budaya akademik, organisasi, dan kerja yang berkarakter dan beretika;
+        5. Menjalin kerjasama secara berkelanjutan dengan pihak lain.
+    </string>
+</resources>
