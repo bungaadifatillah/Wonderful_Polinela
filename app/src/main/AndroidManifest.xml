@@ -113,12 +113,6 @@
             android:name=".JurusanPangan"
             android:exported="false" />
         <activity
-            android:name=".Beranda"
-            android:exported="false" />
-        <activity
-            android:name=".AboutUs"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

@@ -8,8 +8,15 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:srcCompat="@drawable/logo_polinela"/>
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="225dp"
+        app:srcCompat="@drawable/logo_polinela" />
 
 </RelativeLayout>
