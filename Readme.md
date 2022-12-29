@@ -12,3 +12,4 @@ Aplikasi Polinela Info ini memberitahukan mengenai jurusan dan program studi yan
 
 
 
+selesai dan sudah dinilai :heavy_check_mark:
